@@ -35,3 +35,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+//Accessing API
+    //Copy from Fact
+    //Create a struct called Result (within the class) with what you’re trying to get inside: make the struct CODABLE
+    //In the do method, just want to make sure you’re decoding Result and putting it in variable result, getting result.value
+//Reading out the API
+    //>var fact = Fact() accessing class Fact: at the top under outlets
+    //Add all the stuff in the getFactPressed action
+//Replacing the name with the one entered
+    //replaceName function in the view controller
+    //Call self.replaceName in getFactPressed button
+//Change for gender
+    //Create updateGender function w all info inside
+    //Call it down in getFactPressed (the if statement)
+
